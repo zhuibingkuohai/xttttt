@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.service.autofill.SaveInfo;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -53,7 +52,7 @@ private Button button2;
                     startActivity(intent);
                     break;
                 case  R.id.button2:
-                    Intent intent1=new Intent(MainActivity.this,SecondActivity.class)
+                    Intent intent1=new Intent(MainActivity.this,SecondActivity.class);
                             startActivity(intent1);
                     break;
             }
