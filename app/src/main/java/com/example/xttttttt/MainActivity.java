@@ -30,8 +30,17 @@ private Button button2;
 
 
         }
-        public  void  onClick(View view){
-        String user
+        public  void  sd(View view){
+        String strusername=user.getText().toString();
+        String strpassword=password.getText().toString();
+        if(strusername.equals("xty")&& strpassword.equals("123")){
+            Toast.makeText(MainActivity.this,"用户名和密码正确",Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(MainActivity.this,SecondActivity.class);
+            startActivity(intent);
+        }
+        else {
+            Toast.makeText(MainActivity.this,"用户名和密码错误",Toast.LENGTH_SHORT).show();
+        }
         }
 
 
@@ -39,4 +48,3 @@ private Button button2;
 
 
     }
-}
