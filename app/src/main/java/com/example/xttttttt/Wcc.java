@@ -28,8 +28,8 @@ public class Wcc extends AppCompatActivity {
     private void intView() {
 
         videView=(VideoView) findViewById(R.id.videoView);
-        button7=(Button)findViewById(R.id.button1);
-        button8=(Button)findViewById(R.id.button2);
+        button7=(Button)findViewById(R.id.button7);
+        button8=(Button)findViewById(R.id.button8);
 
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
