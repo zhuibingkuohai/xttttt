@@ -9,8 +9,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="415dp"
-        android:layout_height="246dp"
+        android:layout_width="417dp"
+        android:layout_height="217dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,20 +32,20 @@
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_marginTop="-200dp"
-            android:layout_marginLeft="100dp"
             android:layout_width="310dp"
             android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-200dp"
+            android:text="韦存存教授始终坚持在教学工作第一线，教学资源建设、教学方法改革、考核方法改革、因材施教等教学工作成效显著。推行“以就业为导向、以岗位为依据、以能力为本位”专业理念，“融合职业标准、实行项目教学、注重效果评价”课程理念，“加强基本建设、培育品牌特色、营造和谐环境”管理理念，明确“树人本、高质量、成特色”工作目标，清晰工作思路、创新工作机制、创建和谐环境。"
             android:textColor="#FFE4C4"
-            android:textSize="15dp"
 
-            android:text="韦存存教授始终坚持在教学工作第一线，教学资源建设、教学方法改革、考核方法改革、因材施教等教学工作成效显著。推行“以就业为导向、以岗位为依据、以能力为本位”专业理念，“融合职业标准、实行项目教学、注重效果评价”课程理念，“加强基本建设、培育品牌特色、营造和谐环境”管理理念，明确“树人本、高质量、成特色”工作目标，清晰工作思路、创新工作机制、创建和谐环境。" />
+            android:textSize="15dp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="411dp"
-        android:layout_height="249dp"
+        android:layout_width="410dp"
+        android:layout_height="161dp"
         android:layout_marginTop="8dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,8 +56,8 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="184dp"
-            android:layout_height="112dp"
-            android:layout_marginLeft="-45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-60dp"
 
             app:srcCompat="@drawable/zk" />
 
@@ -66,7 +66,7 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:layout_marginLeft="-140dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="100dp"
             android:text="周坤老师录播间"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -75,15 +75,15 @@
             android:layout_width="300dp"
             android:layout_height="202dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="-20dp"
+            android:layout_marginTop="-10dp"
+            android:text="周坤教授始终坚持在教学工作第一线，。推行“以就业为导向、以岗位为依据、以能力为本位”专业理念，“融合职业标准、实行项目教学、注重效果评价”课程理念，“加强基本建设、培育品牌特色、营造和谐环境”管理理念，明确“树人本、高质量、成特色”工作目标，清晰工作思路、创新工作机制、创建和谐环境。"
             android:textColor="#FFE4C4"
-            android:textSize="15dp"
-            android:text="周坤教授始终坚持在教学工作第一线，教学资源建设、教学方法改革、考核方法改革、因材施教等教学工作成效显著。推行“以就业为导向、以岗位为依据、以能力为本位”专业理念，“融合职业标准、实行项目教学、注重效果评价”课程理念，“加强基本建设、培育品牌特色、营造和谐环境”管理理念，明确“树人本、高质量、成特色”工作目标，清晰工作思路、创新工作机制、创建和谐环境。" />
+            android:textSize="15dp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="405dp"
-        android:layout_height="225dp"
+        android:layout_width="431dp"
+        android:layout_height="224dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +96,8 @@
             android:id="@+id/imageView3"
             android:layout_width="116dp"
             android:layout_height="108dp"
-            android:layout_marginLeft="1dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/qq" />
 
@@ -105,15 +106,17 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:layout_marginTop="30dp"
-            android:text="葛茜倩老师录播间" />
+            android:text="葛茜倩老师录播间"
+            android:onClick="qqb"/>
+
         <TextView
             android:id="@+id/textView3"
-            android:layout_marginTop="-200dp"
-            android:layout_marginLeft="120dp"
             android:layout_width="300dp"
             android:layout_height="200dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="-190dp"
+            android:text="葛茜倩教授始终坚持在教学工作第一线，教学工作成效显著。推行“以就业为导向、以岗位为依据、以能力为本位”专业理念，“融合职业标准、实行项目教学、注重效果评价”课程理念，“加强基本建设、培育品牌特色、营造和谐环境”管理理念，明确“树人本、高质量、成特色”工作目标，清晰工作思路、创新工作机制、创建和谐环境。"
             android:textColor="#FFE4C4"
-            android:textSize="15dp"
-            android:text="葛茜倩教授始终坚持在教学工作第一线，教学资源建设、教学方法改革、考核方法改革、因材施教等教学工作成效显著。推行“以就业为导向、以岗位为依据、以能力为本位”专业理念，“融合职业标准、实行项目教学、注重效果评价”课程理念，“加强基本建设、培育品牌特色、营造和谐环境”管理理念，明确“树人本、高质量、成特色”工作目标，清晰工作思路、创新工作机制、创建和谐环境。" />
+            android:textSize="15dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
