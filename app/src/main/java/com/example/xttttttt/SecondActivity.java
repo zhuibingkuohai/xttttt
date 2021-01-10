@@ -21,4 +21,16 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent=new Intent(SecondActivity.this,Gqq.class);
         startActivity(intent);
     }
+
+    public void zkb(View view) {
+        Toast.makeText(SecondActivity.this,"欢迎来到周坤老师的直播间",Toast.LENGTH_SHORT).show();
+        Intent intent=new Intent(SecondActivity.this,Zk.class);
+        startActivity(intent);
+    }
+
+    public void ccb(View view) {
+        Toast.makeText(SecondActivity.this,"欢迎来到韦存存老师的直播间",Toast.LENGTH_SHORT).show();
+        Intent intent=new Intent(SecondActivity.this,Wcc.class);
+        startActivity(intent);
+    }
 }
