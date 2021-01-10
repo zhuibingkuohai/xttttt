@@ -17,7 +17,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void qqb(View view) {
-        Toast.makeText(SecondActivity.this,"用户名和密码正确",Toast.LENGTH_SHORT).show();
+        Toast.makeText(SecondActivity.this,"欢迎来到葛茜倩老师的直播间",Toast.LENGTH_SHORT).show();
         Intent intent=new Intent(SecondActivity.this,Gqq.class);
         startActivity(intent);
     }

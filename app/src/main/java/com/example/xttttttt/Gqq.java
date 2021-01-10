@@ -24,6 +24,7 @@ public class Gqq extends AppCompatActivity {
     }
 
     private void intView() {
+
         videView=(VideoView) findViewById(R.id.videoView);
         button1=(Button)findViewById(R.id.button1);
         button2=(Button)findViewById(R.id.button2);
@@ -43,7 +44,7 @@ public class Gqq extends AppCompatActivity {
     private void bofang(){
         videView=(VideoView) findViewById(R.id.videoView);
         mediaController=new  MediaController(this);
-        String uri="android.resource://"+getPackageName()+R.raw.video;
+        String uri="android.resource://"+getPackageName()+"/"+R.raw.video;
         videView.setVideoURI(Uri.parse(uri));
         videView.setMediaController(mediaController);
         mediaController.setMediaPlayer(videView);
