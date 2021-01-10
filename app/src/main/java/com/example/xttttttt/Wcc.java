@@ -21,7 +21,7 @@ public class Wcc extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gqq);
+        setContentView(R.layout.activity_wcc);
         intView();
     }
 
