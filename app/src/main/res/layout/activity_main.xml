@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:animationCache="true"
+    tools:context=".MainActivity"
+    >
+
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="414dp"
+        android:layout_height="729dp"
+        android:background="@drawable/dd"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
     <LinearLayout
         android:id="@+id/number"
         android:layout_width="408dp"
@@ -84,17 +92,14 @@
         android:layout_height="55dp"
         android:layout_below="@+id/password"
         android:background="#FFA07A"
+        android:onClick="sd"
         android:text="登录"
         android:textColor="#ffffff"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="sd"/>
-
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
