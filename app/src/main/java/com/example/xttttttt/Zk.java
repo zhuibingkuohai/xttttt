@@ -13,9 +13,9 @@ import android.widget.VideoView;
 
 public class Zk extends AppCompatActivity {
     private VideoView videView;
-    private Button button1;
-    private Button button2;
-    private Button button3;
+    private Button button5;
+    private Button button6;
+    private Button button4;
     private MediaController mediaController;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +27,16 @@ public class Zk extends AppCompatActivity {
     private void intView() {
 
         videView=(VideoView) findViewById(R.id.videoView);
-        button1=(Button)findViewById(R.id.button1);
-        button2=(Button)findViewById(R.id.button2);
-        button1.setOnClickListener(new View.OnClickListener() {
+        button4=(Button)findViewById(R.id.button1);
+        button5=(Button)findViewById(R.id.button2);
+
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 bofang2();
             }
         });
-        button2.setOnClickListener(new View.OnClickListener() {
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 videView.stopPlayback();
