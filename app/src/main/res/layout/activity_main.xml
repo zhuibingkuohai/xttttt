@@ -19,6 +19,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="131dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/dd"
+            android:text="程序课堂"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textSize="25dp"
+            android:textColor="#8FBC8F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
 
     <LinearLayout
